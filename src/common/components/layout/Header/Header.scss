@@ -1,0 +1,26 @@
+.main-drawer{
+.listItemStyle{
+    width: 320px;
+.menu-link{
+    li{
+        padding-left: 20px;
+        .MuiListItemText-root{
+            .MuiTypography-body1{
+                font-size: 0.875rem;
+                font-weight: bold;
+            }
+        }
+    }
+ }
+ .menu-search{
+     display: flex;
+     .closeBtn{
+         align-self: center;
+         margin-left: 8px;
+     }
+ }
+}
+.MuiDrawer-paper{
+    overflow: hidden;
+}
+}

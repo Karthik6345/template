@@ -1,11 +1,12 @@
 import React from 'react';
 import { hydrate } from 'react-dom';
-import theme from '../theme';
+import {theme} from '../theme';
 import { ThemeProvider } from '@material-ui/styles';
 import { Provider } from 'react-redux';
 import configureStore from '../common/store/configureStore';
 import App from '../common/containers/App';
 import { BrowserRouter } from "react-router-dom";
+import "../common/assets/SCSS/app.module.scss";
 
 const store = configureStore(window.__PRELOADED_STATE__);
 

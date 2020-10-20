@@ -1,0 +1,115 @@
+@import './main.scss';
+
+@font-face {
+    font-family: 'MyWebFont';
+    src: url('../Fonts/DM_Sans/DMSans-Regular.ttf') format('truetype'),
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "MyWebFont";
+    overflow: hidden;
+
+}
+
+.aids-container {
+    padding: 20px 0;
+    border: solid 1px #e0e0e0;
+    background-color: #f9f9f9;
+    text-align: center;
+
+    img {
+        width: 300px;
+        height: 250px;
+    }
+}
+
+section {
+    padding: 20px 0;
+}
+
+.gobal-title {
+    font-size: 1.125rem !important;
+    font-weight: bold !important;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal !important;
+    letter-spacing: -0.3px;
+    margin-bottom: 18px !important;
+    ;
+}
+
+.toggle-button {
+    margin: 0 !important;
+    margin-bottom: 18px !important;
+
+    &__style {
+        margin-right: 7px !important;
+    }
+}
+
+.card-recipe {
+    display: flex;
+
+    &__imageContainer {
+        display: flex;
+        flex-direction: row;
+    }
+
+    &__content {
+        padding-left: 15px;
+        padding-top: 4px;
+        padding-right: 4px;
+
+        h5 {
+            font-size: 0.875rem;
+            line-height: 1.43;
+            font-weight: bold;
+        }
+
+        .duration {
+            font-size: 0.625rem;
+            font-weight: 500;
+            display: flex;
+            align-items: center;
+            margin-top: 6px;
+        }
+
+        .watch-icon {
+            display: flex;
+
+            svg {
+                width: 0.8rem;
+                height: auto;
+                margin-right: 4px;
+            }
+        }
+    }
+
+    &__image {
+        width: 130px;
+        height: 98px;
+    }
+}
+
+
+.MuiListItem-gutters {
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+}
+
+
+// =============== utlis =======================
+.nowrap {
+    flex-wrap: nowrap !important;
+}
+
+.gray-section {
+    border: solid 1px #e1e5d7;
+    background-color: #f2f3ef;
+}
